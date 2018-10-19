@@ -1,0 +1,6 @@
+#Tablomuzda UniqIDsi oldugu varsayalim
+
+Select*
+From TableA where UniqID IN (
+Select UniqID From TabloB)
+        

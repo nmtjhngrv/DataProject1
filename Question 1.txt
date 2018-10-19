@@ -1,0 +1,8 @@
+Delete 
+From TableA 
+Where Date Not in 
+(
+Select MIN(Date)
+From TableA
+Group by ID,Name,Value 
+)
