@@ -2,5 +2,5 @@
 
 Select*
 From TableA where UniqID IN (
-Select UniqID From TabloB)
+Select UniqID From TableB)
         
